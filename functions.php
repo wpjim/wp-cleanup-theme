@@ -14,7 +14,7 @@ $option = array(
     // disable comments
     'default_comment_status'        => 'closed',
     // disable trackbacks
-    'use_trackback'                 => ''   
+    'use_trackback'                 => '',
     // disable pingbacks
     'default_ping_status'           => 'closed',
     // disable pinging
