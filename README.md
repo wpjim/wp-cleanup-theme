@@ -1,4 +1,4 @@
-# wp-startup-theme
+# wp-cleanup-theme
 Startup theme for WP cleanup, plugin activation, slug activation etc.
 
 Use with: 
