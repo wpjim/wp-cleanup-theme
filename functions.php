@@ -21,26 +21,26 @@ $option = array(
     'default_pingback_flag'         => '',
     // change the permalink structure
     'permalink_structure'           => '/%postname%/',
-    // dont use year/month folders for uploads 
+    // dont use year/month folders for uploads
     'uploads_use_yearmonth_folders' => '',
     // don't use those ugly smilies
-    'use_smilies'                   => '',   
+    'use_smilies'                   => '',
 );
- 
+
 // change the options!
-foreach ( $option as $key => $value ) {  
+foreach ( $option as $key => $value ) {
     update_option( $key, $value );
 }
- 
+
 // flush rewrite rules because we changed the permalink structure
 global $wp_rewrite;
 $wp_rewrite->flush_rules();
- 
+
 // delete the default comment, post and page
 wp_delete_comment( 1 );
 wp_delete_post( 1, TRUE );
 wp_delete_post( 2, TRUE );
- 
+
 // we need to include the file below because the activate_plugin() function isn't normally defined in the front-end
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 // activate pre-bundled plugins
