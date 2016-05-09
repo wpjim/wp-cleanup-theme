@@ -49,4 +49,4 @@ activate_plugin( 'wordpress-seo/wp-seo.php' );
 activate_plugin( 'contact-form-7/wp-contact-form-7.php' );
  
 // switch the theme to "Headliner"
-switch_theme( 'headliner' );
+switch_theme( '_s' );
