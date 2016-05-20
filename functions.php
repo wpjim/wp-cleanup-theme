@@ -24,7 +24,7 @@ $option = array(
     // dont use year/month folders for uploads
     'uploads_use_yearmonth_folders' => '',
     // don't use those ugly smilies
-    'use_smilies'                   => '',
+    'use_smilies'                   => ''
 );
 
 // change the options!
